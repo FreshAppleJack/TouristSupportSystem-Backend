@@ -1,0 +1,26 @@
+# Data Config
+spring:
+  #Mysql Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Mc200535
+    url: jdbc:mysql://localhost:3306/TouristData?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+  #Redis
+  data:
+    redis:
+      database: 10
+      host: 192.168.2.98
+      port: 6379
+      password: Mc200535
+      lettuce:
+        pool:
+          max-active: 20
+          max-wait: -1
+          max-idle: 5
+          min-idle: 1
+# Logging Config
+logging:
+  level:
+    com.hwadee.springboot: DEBUG
+  config: classpath:logback-spring.xml

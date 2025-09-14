@@ -1,0 +1,19 @@
+[INFO]2025-09-14 12:27:16,493 - Starting TouristSupportSystemApplication using Java 17.0.8 with PID 15016 (C:\Java-Resources\TouristSupportSystem\target\classes started by 马畅 in C:\Java-Resources\TouristSupportSystem)
+[INFO]2025-09-14 12:27:16,496 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2025-09-14 12:27:16,537 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2025-09-14 12:27:16,537 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[WARN]2025-09-14 12:27:17,171 - No MyBatis mapper was found in '[com.cdut.touristsupportsystem.mapper]' package. Please check your configuration.
+[WARN]2025-09-14 12:27:17,191 - No MyBatis mapper was found in '[com.cdut.touristsupportsystem.mapper]' package. Please check your configuration.
+[INFO]2025-09-14 12:27:17,554 - Tomcat initialized with port 80 (http)
+[INFO]2025-09-14 12:27:17,565 - Initializing ProtocolHandler ["http-nio-127.0.0.1-80"]
+[INFO]2025-09-14 12:27:17,567 - Starting service [Tomcat]
+[INFO]2025-09-14 12:27:17,567 - Starting Servlet engine: [Apache Tomcat/10.1.44]
+[INFO]2025-09-14 12:27:17,635 - Initializing Spring embedded WebApplicationContext
+[INFO]2025-09-14 12:27:17,636 - Root WebApplicationContext: initialization completed in 1099 ms
+[INFO]2025-09-14 12:27:18,152 - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2cd865e9
+[INFO]2025-09-14 12:27:18,230 - LiveReload server is running on port 35729
+[INFO]2025-09-14 12:27:18,245 - Starting ProtocolHandler ["http-nio-127.0.0.1-80"]
+[INFO]2025-09-14 12:27:18,264 - Tomcat started on port 80 (http) with context path '/'
+[INFO]2025-09-14 12:27:18,278 - Started TouristSupportSystemApplication in 2.324 seconds (process running for 3.228)
+[INFO]2025-09-14 12:27:24,754 - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO]2025-09-14 12:27:24,755 - Graceful shutdown complete
