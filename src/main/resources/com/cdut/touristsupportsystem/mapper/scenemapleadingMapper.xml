@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cdut.touristsupportsystem.mapper.scenemapleadingMapper">
+
+    <resultMap id="BaseResultMap" type="com.cdut.touristsupportsystem.entity.scenemapleading">
+            <result property="sceneName" column="scene_name" />
+            <result property="sceneAddress" column="scene_address" />
+            <result property="sceneId" column="scene_id" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        scene_name,scene_address,scene_id
+    </sql>
+    <select id="getAllAddresses" resultType="com.cdut.touristsupportsystem.entity.scenemapleading">
+        select * from scenemapleading
+    </select>
+</mapper>
